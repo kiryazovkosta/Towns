@@ -11,7 +11,7 @@
 <body>
 
 <h1>Towns</h1>
-<select id="towns" size="4">
+<select id="towns" title="towns" size="4">
     <option>Sofia</option>
     <option>Plovdiv</option>
     <option>Varna</option>
@@ -19,7 +19,13 @@
 </select>
 
 <div>
-    <input type="text" id="townName" />
+    <input type="text" id="townNameForAdd" name="townNameForAdd" title="townNameForAdd" />
+    <button id="btnAdd">Add</button>
+</div>
+
+
+<div>
+    <input type="text" id="townName" name="townName" title="townName" />
     <button id="btnDelete">Delete</button>
 </div>
 <div id="result"></div>
