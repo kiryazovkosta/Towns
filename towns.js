@@ -25,7 +25,7 @@ function shuffleTowns() {
 	$('#towns').empty();
 	shuffleArray(towns);
 	$('#towns').append(towns);
-	$('#result').text("Towns shuffled.");
+	showMessage("Towns shuffled.");
 
 	function shuffleArray(array) {
 		for (var i = array.length - 1; i > 0; i--) {
